@@ -1,0 +1,39 @@
+body{
+    background: blue;
+} 
+ 
+
+
+.registration-form {
+    width: 800px;
+    height: 800px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    background: rgb(240, 219, 86);
+    font-size: 30px;
+    color: black;
+    text-decoration: solid underline;
+    box-shadow: 0px 0px 43px 23px rgba(37, 37, 37, 0.758);
+    padding: 20px;
+
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.valid-feedback{
+    font-size: 20px;
+}
+.invalid-feedback{
+    font-size: 20px;
+}
+
+.btn {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+
+}
